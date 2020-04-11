@@ -29,9 +29,4 @@ end
   def count_sentences
 count = 0 
 self.split(/[.!?]/)
-if self == 0 
-  return 0 
-  
-  end
-end
 end 
