@@ -28,6 +28,8 @@ end
 
   def count_sentences
 count = 0 
-self.split(/[.!?]/)
+num_of_sen = self.split(/[.!?]/)
+if num_of_sen
+
 end 
 end
