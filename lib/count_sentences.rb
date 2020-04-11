@@ -27,6 +27,6 @@ end
 end 
 
   def count_sentences
-self.split(/[.?!]+/).grep(/\S/).count
+  self.split(/[.?!]+/).count
 end
 end
