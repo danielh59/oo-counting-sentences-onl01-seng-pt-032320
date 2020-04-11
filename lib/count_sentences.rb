@@ -32,7 +32,7 @@ num_of_sen = self.split(/[.!?]/)
 if num_of_sen.length == 0 
   0 
 else 
-  
+end 
 
 end 
 end
