@@ -29,7 +29,10 @@ end
   def count_sentences
 count = 0 
 num_of_sen = self.split(/[.!?]/)
-if num_of_sen
+if num_of_sen.length == 0 
+  0 
+else 
+  
 
 end 
 end
