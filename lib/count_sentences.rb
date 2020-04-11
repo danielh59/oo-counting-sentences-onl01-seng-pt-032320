@@ -27,12 +27,5 @@ end
 end 
 
   def count_sentences
-count = 0 
-num_of_sen = self.split(/[.!?]/)
-if num_of_sen.length == 0 
-  0 
- else num_of_sen.count
-end 
-
-end 
+self.split(/[.?!]+/).grep(/\S/).count
 end
