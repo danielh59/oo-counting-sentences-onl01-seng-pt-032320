@@ -30,3 +30,4 @@ end
 count = 0 
 self.split(/[.!?]/)
 end 
+end
